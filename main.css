@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main
+{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    /* padding: 3px 175px;  */
+    height: 100vh;
+    width: 690px;
+    justify-content: center;
+    align-items:center  ;
+    
+}
+
+body::before
+{
+    content: "";
+    position: absolute;
+    background: url('./bg4.png') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.97; */
+}
+
+h1
+{
+    font-family: 'Noto Serif', serif;
+    font-size: 43px;
+    padding: 15px;
+    margin: 15px;
+    color: whitesmoke;
+}
+
+#main #btn
+{
+    display: flex;
+    margin: 30px 110px;
+}
+
+.btn
+{
+    padding: 10px 40px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: white;
+    color: rgb(0, 0, 0);
+    margin: 10px 20px;
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 25px;
+    cursor: pointer;
+    m
+    /* font-weight: bold; */
+}
+
+.btn:hover
+{
+    border-color: black;
+    border-width: 2px;
+    color: rgb(0, 0, 0);
+
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+.content
+{
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    color: whitesmoke;
+}
